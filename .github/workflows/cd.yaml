@@ -17,4 +17,4 @@ jobs:
       env:
         IP: 127.0.0.1  # 자신의 아이피로 변경합니다.
       run: |
-        aws s3 cp index.html s3://workshop-practices/$(IP) --acl public-read
+        aws s3 cp index.html s3://workshop-practices/$IP --acl public-read
